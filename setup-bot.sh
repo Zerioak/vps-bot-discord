@@ -8,7 +8,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Variables
-BOT_PATH="/root"  # Folder containing bot.py, .env, requirements.txt
+BOT_PATH="/root/vps-bot-discord" # Folder containing bot.py, .env, requirements.txt
 BOT_FILE="bot.py"
 SERVICE_FILE="/etc/systemd/system/unixnodes-bot.service"
 
