@@ -18,16 +18,18 @@ Built with **Node.js + discord.js v14**, designed for automation and efficiency.
 
 1. Clone the repo:  
    ```bash
-   https://github.com/Zerioak/vps-bot-discord.git
-  cd vps-bot-discord
+   git clone https://github.com/Zerioak/vps-bot-discord.git
+   cd vps-bot-discord
 
 2. Install dependencies:
-
+```
 sudo apt install python3-pip
-
+```
+```
 pip install -r requirements.txt
+```
 
-3. Create a .env file and Paste
+3. Chante The .env file to Your bot token :
 
 DISCORD_TOKEN=your_discord_bot_token_here
 ADMIN_IDS=1210291131301101618
@@ -39,9 +41,9 @@ MAX_VPS_PER_USER=3
 
 
 5. Deploy slash & start the bot commands:
-
+```
 python3 bot.py
-
+```
 
 ---
 
@@ -58,7 +60,7 @@ Custom (your own API integration)
 ---
 
 📜 Example Commands
-
+```
 /create-vps <provider> <region> → Creates a new VPS
 
 /list-vps → Shows your active servers
@@ -66,7 +68,7 @@ Custom (your own API integration)
 /status <id> → Get VPS status
 
 /delete-vps <id> → Destroy a VPS
-
+```
 
 
 ---
