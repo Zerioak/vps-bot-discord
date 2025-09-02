@@ -73,10 +73,13 @@ python3 bot.py
 
 ---
 
-# 👑 Credits
+# 👑 Credits of bot code
 
-**1 in All Copy Paste Command Developed by Ali —**
-**Code by HopingBoyz —**
+❤️**Code by HopingBoyz —**
+
+# In Single command Credit:
+
+🖤**Ali as Known as Zerioak**
 
 
 ---
