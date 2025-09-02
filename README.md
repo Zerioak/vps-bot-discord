@@ -6,22 +6,22 @@ Built with **Node.js + discord.js v14**, designed for automation and efficiency.
 ---
 
 ## ✨ Features  
-- 🔹 Deploy VPS servers with simple commands  
-- 🔹 Manage instances (start/stop/reboot)  
-- 🔹 Get real-time server status reports  
-- 🔹 Easy to set up & run on any VPS  
+**- 🔹 Deploy VPS servers with simple commands**
+**- 🔹 Manage instances (start/stop/reboot)**
+**- 🔹 Get real-time server status reports**
+**- 🔹 Easy to set up & run on any VPS**
 - 🔹 **All in One — Single Command** ⚡  
 
 ---
 
 ## 📦 Installation  
 
-1. Clone the repo:  
+**1. Clone the repo:**
    ```bash
-   git clone https://github.com/Zerioak/vps-bot-discord.git
-   cd vps-bot-discord
-
-2. Install dependencies:
+  git clone https://github.com/Zerioak/vps-bot-discord.git
+  cd vps-bot-discord 
+```
+**2. Install dependencies:**
 ```
 sudo apt install python3-pip
 ```
@@ -29,7 +29,7 @@ sudo apt install python3-pip
 pip install -r requirements.txt
 ```
 
-3. Chante The .env file to Your bot token :
+**3. Change The .env file to Your bot token :**
 
 DISCORD_TOKEN=your_discord_bot_token_here
 ADMIN_IDS=1210291131301101618
@@ -40,26 +40,26 @@ MAX_CONTAINERS=100
 MAX_VPS_PER_USER=3
 
 
-5. Deploy slash & start the bot commands:
+**5. Deploy slash & start the bot commands:**
 ```
 python3 bot.py
 ```
 
 ---
 
-🖥️ VPS Providers Supported
+# 🖥️ VPS Providers Supported
 
-Ubuntu
+**Ubuntu**
 
-Debian
+**Debian**
 
-Custom (your own API integration)
+**Custom (your own API integration)**
 
 
 
 ---
 
-📜 Example Commands
+# 📜 Example Commands
 ```
 /create-vps <provider> <region> → Creates a new VPS
 
@@ -73,14 +73,14 @@ Custom (your own API integration)
 
 ---
 
-👑 Credits
+# 👑 Credits
 
-1 in All Code Developed by Ali —
-Code by HopingBoyz —
+**1 in All Copy Paste Command Developed by Ali —**
+**Code by HopingBoyz —**
 
 
 ---
 
-🛡️ License
+# 🛡️ License
 
-MIT License © 2025 — Free to use, modify, and deploy.
+**MIT License © 2025 — Free to use, modify, and deploy.**
