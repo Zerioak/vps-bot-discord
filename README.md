@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 **3. Change The .env file to Your bot token :**
-
+```
 DISCORD_TOKEN=your_discord_bot_token_here
 ADMIN_IDS=1210291131301101618
 ADMIN_ROLE_ID=1376177459870961694
@@ -38,7 +38,7 @@ DEFAULT_OS_IMAGE=ubuntu:22.04
 DOCKER_NETWORK=bridge
 MAX_CONTAINERS=100
 MAX_VPS_PER_USER=3
-
+```
 
 **5. Deploy slash & start the bot commands:**
 ```
